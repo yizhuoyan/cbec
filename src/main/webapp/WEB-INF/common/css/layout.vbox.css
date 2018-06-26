@@ -1,0 +1,19 @@
+.layout-vbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.layout-vbox > * {
+    flex:none;
+}
+
+
+.layout-vbox > .layout-box-grow {
+
+    flex:auto;
+
+}
+
